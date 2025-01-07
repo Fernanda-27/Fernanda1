@@ -5,7 +5,7 @@ import streamlit as st
 import pickle
 
 # Memuat model dan encoder
-with open('alas_nganjuk.pkl', 'rb') as model_file:
+with open('forest_random', 'rb') as model_file:
     model = pickle.load(model_file)
 
 with open('encode.pkl', 'rb') as encoder_file:
